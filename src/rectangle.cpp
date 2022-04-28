@@ -1,9 +1,13 @@
 #include "../header/rectangle.hpp"
 
-Rectangle::Rectangle(){}
+Rectangle::Rectangle(){
+	width = height = 0;
+}
+
 Rectangle::Rectangle(int w, int h){
     width= w;
     height = h;
+}
 
 void Rectangle::set_width(int w){
 	width = w;
