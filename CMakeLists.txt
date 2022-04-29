@@ -9,9 +9,6 @@ ADD_EXECUTABLE(area_calculator
     src/rectangle.cpp
 )
 
-ADD_EXECUTABLE(c-echo
-    main2.cpp
-)
 ADD_EXECUTABLE(test
    tests/test.cpp
 )
