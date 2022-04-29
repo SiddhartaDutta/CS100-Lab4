@@ -13,7 +13,7 @@ ADD_EXECUTABLE(c-echo
     main2.cpp
 )
 ADD_EXECUTABLE(test
-    test.cpp
+   tests/test.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
