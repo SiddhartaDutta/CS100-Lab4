@@ -29,6 +29,7 @@ jobs:
       - name: Run unit tests
         run: |
           git clone --recursive https://github.com/google/googletest.git
+          git checkout main
           cmake3 .
           make
           ./test
