@@ -1,4 +1,4 @@
-#include "c-echo.h"
+#include "../header/rectangle.hpp"
 
 #include "gtest/gtest.h"
 
