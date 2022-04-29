@@ -23,7 +23,7 @@ TEST(PerimeterTest, OneByOne){
 
 TEST(ConstructorTest, DefaultConstructor){
 
-	Rectangle test();
+	Rectangle test;
 	EXPECT_EQ(0, test.getWidth() + test.getHeight());
 
 }
@@ -48,7 +48,7 @@ TEST(ConstructorTest, ParameterizedContructorWithNegativeWidth){
 
 TEST(AreaTest, DefaultConstructorArea){
 
-	Rectangle test();
+	Rectangle test;
 	EXPECT_EQ(0, test.area());
 
 }
